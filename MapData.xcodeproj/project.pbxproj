@@ -13,6 +13,9 @@
 		82094DFD1C4CEBD3003C5AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82094DFB1C4CEBD3003C5AE9 /* Main.storyboard */; };
 		82094DFF1C4CEBD3003C5AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82094DFE1C4CEBD3003C5AE9 /* Assets.xcassets */; };
 		82094E021C4CEBD3003C5AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82094E001C4CEBD3003C5AE9 /* LaunchScreen.storyboard */; };
+		82094E0B1C4CF245003C5AE9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82094E0A1C4CF245003C5AE9 /* MapViewController.m */; };
+		82094E0E1C4CF27B003C5AE9 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82094E0D1C4CF27B003C5AE9 /* DataViewController.m */; };
+		82094E111C4CF2FF003C5AE9 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 82094E101C4CF2FF003C5AE9 /* CustomAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		82094DFE1C4CEBD3003C5AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82094E011C4CEBD3003C5AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82094E031C4CEBD3003C5AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82094E091C4CF245003C5AE9 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		82094E0A1C4CF245003C5AE9 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		82094E0C1C4CF27B003C5AE9 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		82094E0D1C4CF27B003C5AE9 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		82094E0F1C4CF2FF003C5AE9 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		82094E101C4CF2FF003C5AE9 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				82094DF81C4CEBD3003C5AE9 /* ViewController.h */,
 				82094DF91C4CEBD3003C5AE9 /* ViewController.m */,
 				82094DFB1C4CEBD3003C5AE9 /* Main.storyboard */,
+				82094E091C4CF245003C5AE9 /* MapViewController.h */,
+				82094E0A1C4CF245003C5AE9 /* MapViewController.m */,
+				82094E0C1C4CF27B003C5AE9 /* DataViewController.h */,
+				82094E0D1C4CF27B003C5AE9 /* DataViewController.m */,
+				82094E0F1C4CF2FF003C5AE9 /* CustomAnnotation.h */,
+				82094E101C4CF2FF003C5AE9 /* CustomAnnotation.m */,
 				82094DFE1C4CEBD3003C5AE9 /* Assets.xcassets */,
 				82094E001C4CEBD3003C5AE9 /* LaunchScreen.storyboard */,
 				82094E031C4CEBD3003C5AE9 /* Info.plist */,
@@ -152,6 +167,9 @@
 				82094DFA1C4CEBD3003C5AE9 /* ViewController.m in Sources */,
 				82094DF71C4CEBD3003C5AE9 /* AppDelegate.m in Sources */,
 				82094DF41C4CEBD3003C5AE9 /* main.m in Sources */,
+				82094E111C4CF2FF003C5AE9 /* CustomAnnotation.m in Sources */,
+				82094E0B1C4CF245003C5AE9 /* MapViewController.m in Sources */,
+				82094E0E1C4CF27B003C5AE9 /* DataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +316,7 @@
 				82094E081C4CEBD3003C5AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
