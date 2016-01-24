@@ -55,6 +55,9 @@
     // 地図の機能を有効化
     self.mapView.delegate = self;
     self.mapView.userTrackingMode = MKUserTrackingModeFollow;
+    
+    // 航空写真(flyover)で表示
+    self.mapView.mapType = MKMapTypeSatelliteFlyover;
 }
 
 - (void) viewWillAppear:(BOOL)animated {

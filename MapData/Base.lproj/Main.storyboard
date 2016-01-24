@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KWF-vf-1y2">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWF-vf-1y2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYU-1j-OmW">
@@ -66,7 +66,7 @@
                         <outlet property="addButton" destination="94h-5K-hjF" id="9Ir-Xf-zBA"/>
                         <outlet property="dataButton" destination="uYU-1j-OmW" id="ZYd-of-deH"/>
                         <outlet property="mapView" destination="KWF-vf-1y2" id="6Ke-FG-Ctc"/>
-                        <segue destination="OMY-6c-4g4" kind="show" identifier="Dataview" id="dyz-8b-AQh"/>
+                        <segue destination="OMY-6c-4g4" kind="show" identifier="DataView" id="dyz-8b-AQh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -147,9 +147,11 @@
                         <outlet property="backbutton" destination="9bo-vp-9dL" id="WvE-Bk-FQm"/>
                         <outlet property="editButton" destination="uap-tS-UZ6" id="L8I-1d-1RJ"/>
                         <outlet property="tableView" destination="YZX-q2-4p2" id="toP-Qc-Wrw"/>
+                        <segue destination="SYn-Pz-Q29" kind="unwind" unwindAction="exitFromDataView:" id="Vg6-oG-n0w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dke-9j-JDU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="SYn-Pz-Q29" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1033" y="429"/>
         </scene>
